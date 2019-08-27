@@ -1,0 +1,23 @@
+myadjective= ""
+mynumber = 0
+myoccupation = ""
+myplace = ""
+mymalename = ""
+mybodypart = ""
+mynoun = ""
+mycelebrity= ""
+myverbing= ""
+myadverb = ""
+myverbs = ""
+
+adjectives = []
+number = []
+occupations = []
+places = []
+male_names = []
+body_parts = []
+nouns = []
+celebrities = []
+verbs_with_ing = []
+adverbs = []
+verbs_with_s = []
