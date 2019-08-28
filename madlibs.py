@@ -19,16 +19,22 @@ thismadlib = {
 "verbs" : ""
 }
 
-def user_input(prompt):
-    # the input function will display a message in the terminal
-    # and wait for user input.
-    user_input = input(prompt)
-    return user_input
+while (true):
+    number = input("Give me a number to use: ")
+    occupation1 = input ("Give me an occupation: ")
+    occupation2 = input ("Give me another occupation: ")
+    occupation3 = input ("Give me another another occupation: ")
+    place1 = input ("Give me a location: ")
+    place2 = input ("Give me another location: ")
+    male = input ("Give me a boyish name: ")
+    bodypart1 = input ("Give me one body part: ")
+    bodypart2 = input ("Give me one more body part: ")
+    celebrity = input ("Give me a relevant celebrity: ")
+    verbing = input ("Give me a verb that ends with -ing: ")
+    verbs = input ("Give me a verb that end with -s: ")
+    adverb = input ("Give me an adverb please: ")
 
-    
-running = True
-while running:
-    selection = user_input(
-        "Press A to Add to list, R to Read from list, L to Display list, U to Update item, D to Destroy item, M to Mark Complete/Incomplete, and Q to quit: ")
-    selection_both_cases = selection.lower()
-    running = select(selection_both_cases)
+
+
+
+print(thismadlib.keys())
