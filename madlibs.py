@@ -1,25 +1,7 @@
-import math
-import random
+mad_lib = []
 
-thismadlib = {
-"number" : 0,
-"occupation1" : "",
-"occupation2" : "",
-"place1" : "",
-"male" : "",
-"place2" : "",
-"occupation3" : "",
-"bodypart1" : "",
-"adjective" : "",
-"noun" : "",
-"bodypart2" : "",
-"celebrity": "",
-"verbing": "",
-"adverb" : "",
-"verbs" : ""
-}
 
-while (true):
+while (True):
     number = input("Give me a number to use: ")
     occupation1 = input ("Give me an occupation: ")
     occupation2 = input ("Give me another occupation: ")
@@ -34,7 +16,23 @@ while (true):
     verbs = input ("Give me a verb that end with -s: ")
     adverb = input ("Give me an adverb please: ")
 
+    mad_lib.append({
+            "number": number,
+            "occupation1": occupation1,
+            "occupation2": occupation2,
+            "occupation3": occupation3,
+            "place1": place1,
+            "place2": place2,
+            "male": male,
+            "bodypart1": bodypart1,
+            "bodypart2": bodypart2,
+            "celebrity": celebrity,
+            "verbing": verbing,
+            "verbs": verbs,
+            "adverb": adverb
+
+        })
+    break;
 
 
-
-print(thismadlib.keys())
+print(mad_lib)
