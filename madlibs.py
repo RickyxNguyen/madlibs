@@ -1,7 +1,6 @@
-import sys
 from termcolor import colored
 
-mad_lib = []
+mad_lib = list()
 
 def number():
     while True:
@@ -110,5 +109,9 @@ adverb()
 verbs()
 
 
-madlib = colored(mad_lib[0], 'red') + " years after the end of Rush Hour 2, James Carter is no longer a " + colored(mad_lib[1],'blue') + ", but a " + colored(mad_lib[2], 'green') + " on the streets of " + colored(mad_lib[3], 'grey') + ". Lee is now the bodyguard for his friend " + colored(mad_lib[4], 'magenta') + ". Lee is still upset with Carter about an incident in " + colored(mad_lib[5], 'magenta') + " when Carter accidentally shot Lee`s girlfriend," + colored(mad_lib[6],'blue') + " Isabella Molina, in the " + colored(mad_lib[7], 'yellow') + ". During the World Criminal Court discussions, as " + colored(mad_lib[4], 'magenta') + " addresses the importance to fight the Triad, he announces that he knows the " + colored(mad_lib[8], 'magenta') + " of the Triad leadership known as the Shy Shen. Suddenly, " + colored(mad_lib[4],'grey') + " takes a " + colored(mad_lib[9], 'cyan') + " in the " + colored(mad_lib[10], 'white') + ", disrupting the conference. Lee pursues the assassin and corners him, discovering that the assassin is his brother, " + colored(mad_lib[11], 'red') + ". When Lee hesitates to shoot " + colored(mad_lib[13], 'green') + ", Carter shows up " + colored(mad_lib[13], 'yellow') + " " + colored(mad_lib[14],'blue') + " Lee over, allowing " + colored(mad_lib[13], 'white') +" to escape. "
+madlib = colored(mad_lib[0], 'red') + " years after the end of Rush Hour 2, James Carter is no longer a " + colored(mad_lib[1],'blue') + ", but a " + colored(mad_lib[2], 'green') + " on the streets of " + colored(mad_lib[3], 'grey') + \
+    ". Lee is now the bodyguard for his friend " + colored(mad_lib[4], 'magenta') + ". Lee is still upset with Carter about an incident in " + colored(mad_lib[5], 'magenta') + " when Carter accidentally shot Lee`s girlfriend," + colored(mad_lib[6],'blue') + \
+    " Isabella Molina, in the " + colored(mad_lib[7], 'yellow') + ". During the World Criminal Court discussions, as " + colored(mad_lib[4], 'magenta') + " addresses the importance to fight the Triad, he announces that he knows the " + colored(mad_lib[8], 'magenta') + \
+    " of the Triad leadership known as the Shy Shen. Suddenly, " + colored(mad_lib[4],'grey') + " takes a " + colored(mad_lib[9], 'cyan') + " in the " + colored(mad_lib[10], 'white') + ", disrupting the conference. Lee pursues the assassin and corners him, discovering that the assassin is his brother, " + colored(mad_lib[11], 'red') + \
+    ". When Lee hesitates to shoot " + colored(mad_lib[13], 'green') + ", Carter shows up " + colored(mad_lib[13], 'yellow') + " " + colored(mad_lib[14],'blue') + " Lee over, allowing " + colored(mad_lib[13], 'white') +" to escape. "
 print(madlib)
